@@ -8,7 +8,6 @@ RUN apt-get update \
   && apt-get install -y \
     python-boto python-swiftclient python-pexpect openssh-client \
   && apt-get install -y python-pip \
-  && pip install --upgrade pip \
   && pip install b2 \
   && rm -rf /var/apt/lists/*
 
